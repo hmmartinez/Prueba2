@@ -31,7 +31,7 @@ nodo ** UtilidadesListasEnlazadas::CrearLista(int valor) {
 	int num = 0;
 
 	if (valor < 1) {
-		cout << "\n\nNúmero Inválido. Regresando..." << endl;
+		cout << "\n\nNÃºmero InvÃ¡lido. Regresando..." << endl;
 		return NULL;
 	}
 	else {
@@ -57,18 +57,6 @@ void UtilidadesListasEnlazadas::OrdenarLista(nodo **lista) {
 				tmp = pivote->valor;
 			}
 			actual = actual->sig;
-		}
-	}
-
-	int tam = sizeof(UtilidadesListasEnlazadas);
-
-	for (int i = 0; i < tam; i++) {
-		for (int j = 0; j < tam - 1; j++) {
-			if ((*lista)->valor > (*lista)->valor {
-				int temp = arreglo[j];
-				arreglo[j] = arreglo[j + 1];
-				arreglo[j + 1] = temp;
-			}
 		}
 	}
 
